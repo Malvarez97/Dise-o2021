@@ -12,8 +12,6 @@ public class Playermode : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-
-        
     }
     
 
