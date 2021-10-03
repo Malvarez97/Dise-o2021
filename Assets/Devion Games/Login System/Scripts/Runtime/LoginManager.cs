@@ -10,7 +10,7 @@ namespace DevionGames.LoginSystem
 {
     public class LoginManager : MonoBehaviour
     {
-		private static LoginManager m_Current;
+		/*private static LoginManager m_Current;
 
 		/// <summary>
 		/// The LoginManager singleton object. This object is set inside Awake()
@@ -362,6 +362,6 @@ namespace DevionGames.LoginSystem
 			}
 
 			return match.Success;
-		}
+		}*/
 	}
 }

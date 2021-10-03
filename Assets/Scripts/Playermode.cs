@@ -25,4 +25,20 @@ public class Playermode : MonoBehaviour
         anim.SetFloat("VelX", x);
         anim.SetFloat("VelY", y);
     }
+
+    public void setVelocityMov(float velmov){
+        velocityMov = velmov;
+    }
+
+    public float getVelocityMov(){
+        return velocityMov;
+    }
+
+    public void setvelocityRot(float velrot){
+        velocityRot = velrot;
+    }
+
+    public float getVelocityRot(){
+        return velocityRot;
+    }
 }

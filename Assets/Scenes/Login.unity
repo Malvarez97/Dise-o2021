@@ -214,48 +214,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &669726995 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4229154503958471731, guid: 4eba4fd59b5a1c247b13ccd38627791b, type: 3}
-  m_PrefabInstance: {fileID: 4229154503794362307}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &778568180 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4229154503561192769, guid: 4eba4fd59b5a1c247b13ccd38627791b, type: 3}
-  m_PrefabInstance: {fileID: 4229154503794362307}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &778568182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 778568180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 338ffcec1d35a4d45bc96618debb2ac7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  usuario: {fileID: 1021278983}
-  contrasenia: {fileID: 669726995}
-  verificacionContrasenia: {fileID: 1131308465}
---- !u!114 &1021278983 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4229154503039927446, guid: 4eba4fd59b5a1c247b13ccd38627791b, type: 3}
-  m_PrefabInstance: {fileID: 4229154503794362307}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1093905466
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,17 +306,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1131308465 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4229154503256093579, guid: 4eba4fd59b5a1c247b13ccd38627791b, type: 3}
-  m_PrefabInstance: {fileID: 4229154503794362307}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!850595691 &1223674426
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -442,50 +389,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1804153195
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1804153197}
-  - component: {fileID: 1804153196}
-  m_Layer: 0
-  m_Name: Login Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1804153196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1804153195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 107a01d6745714b4e8f3553d15c59d64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Configurations: {fileID: 11400000, guid: 39d5865b35b06dc47a4fa9496f96a84f, type: 2}
---- !u!4 &1804153197
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1804153195}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4229154503794362307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -712,7 +615,7 @@ PrefabInstance:
     - target: {fileID: 4229154504584950698, guid: 4eba4fd59b5a1c247b13ccd38627791b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 778568180}
+      objectReference: {fileID: 0}
     - target: {fileID: 4229154504584950698, guid: 4eba4fd59b5a1c247b13ccd38627791b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: 

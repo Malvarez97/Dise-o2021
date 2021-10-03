@@ -1144,8 +1144,9 @@ MonoBehaviour:
   m_CameraPreset: UI
   m_CloseOnMove: 1
   m_FocusPlayer: 0
-  username: {fileID: 6376326915911718110}
-  password: {fileID: 6376326914939573600}
+  escena: 
+  username: {fileID: 6376326914541595669}
+  password: {fileID: 6376326914409225071}
   rememberMe: {fileID: 6376326913902722869}
   loginButton: {fileID: 6376326915434027164}
   loadingIndicator: {fileID: 6376326914089793279}
@@ -1489,13 +1490,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 6376326914829506701}
+        m_TargetAssemblyTypeName: DevionGames.LoginSystem.LoginWindow, Assembly-CSharp
+        m_MethodName: OnLogin
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

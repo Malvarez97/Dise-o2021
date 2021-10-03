@@ -45,62 +45,6 @@ namespace DevionGames.LoginSystem.Configuration
             }
         }
 
-        private RegistrationWindow m_RegistrationWindow;
-        public RegistrationWindow registrationWindow
-        {
-            get
-            {
-                if (this.m_RegistrationWindow == null)
-                {
-                    this.m_RegistrationWindow = WidgetUtility.Find<RegistrationWindow>(this.registrationWindowName);
-                }
-                Assert.IsNotNull(this.m_RegistrationWindow, "Registration Window with name " + this.registrationWindowName + " is not present in scene.");
-                return this.m_RegistrationWindow;
-            }
-        }
-
-        private RecoverPasswordWindow m_RecoverPasswordWindow;
-        public RecoverPasswordWindow recoverPasswordWindow
-        {
-            get
-            {
-                if (this.m_RecoverPasswordWindow == null)
-                {
-                    this.m_RecoverPasswordWindow = WidgetUtility.Find<RecoverPasswordWindow>(this.recoverPasswordWindowName);
-                }
-                Assert.IsNotNull(this.m_RecoverPasswordWindow, "Recover Password Window with name " + this.recoverPasswordWindowName + " is not present in scene.");
-                return this.m_RecoverPasswordWindow;
-            }
-        }
-
-        private DialogBox m_DialogBox;
-        public DialogBox dialogBox
-        {
-            get
-            {
-                if (this.m_DialogBox == null)
-                {
-                    this.m_DialogBox = WidgetUtility.Find<DialogBox>(this.dialogBoxName);
-                }
-                Assert.IsNotNull(this.m_DialogBox, "DialogBox widget with name " + this.dialogBoxName + " is not present in scene.");
-                return this.m_DialogBox;
-            }
-        }
-
-        private Tooltip m_Tooltip;
-        public Tooltip tooltip
-        {
-            get
-            {
-                if (this.m_Tooltip == null)
-                {
-                    this.m_Tooltip = WidgetUtility.Find<Tooltip>(this.tooltipName);
-                }
-                Assert.IsNotNull(this.m_Tooltip, "Tooltip widget with name " + this.tooltipName + " is not present in scene.");
-                return this.m_Tooltip;
-            }
-        }
-
        
     }
 }
