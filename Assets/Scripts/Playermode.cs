@@ -41,4 +41,14 @@ public class Playermode : MonoBehaviour
     public float getVelocityRot(){
         return velocityRot;
     }
+
+    public void removeAnimation(){
+        anim.SetFloat("VelX", 0);
+        anim.SetFloat("VelY", 0);
+    }
+
+    public void createAnimation(){
+        anim.SetFloat("VelX", x);
+        anim.SetFloat("VelY", y);
+    }
 }
